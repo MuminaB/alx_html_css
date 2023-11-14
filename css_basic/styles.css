@@ -2,6 +2,10 @@ body{
     display: flex;
     flex-direction: column;
 }
+header{
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 main{
     display: flex;
