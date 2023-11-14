@@ -22,4 +22,6 @@ aside{
     flex: 1;
     overflow-y: auto
 }
- 
+footer{
+    border: 100px;
+}
