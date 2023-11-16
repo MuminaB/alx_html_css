@@ -11,4 +11,5 @@ To use this code, you need a web browser such as Chrome, Firefox, or Safari. Sim
 The code is organized into different sections: instructions, instructors, and recipes. Each section is unique.
  
 
-![Alt text](image.png)
+![Alt text](Adjustment.jpg)
+ 
