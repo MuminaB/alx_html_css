@@ -138,8 +138,7 @@ button.a {
     background-color: #e74c3c;
 }
 button.b {
-    width: 50px;
-    
+    width: 100px;
     height: 50px;
     border: 0px;
     border-radius: 20px;
@@ -156,22 +155,30 @@ input {
     border: none;
     border-bottom: 4px solid white;
     font-size: 20px;
-    border-bottom: black;
 }
 .contact-us{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 form {
     padding: 50px;
     margin: 70px;
     margin-top: 10px;
-   
     border: none;
-    align-content: center;
 }
 
+footer{
+    background-color: #17031d2a;
+}
+.downlogo{
+    size: 20px;
+}
+ footer .social-media{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
 
+
+}
  

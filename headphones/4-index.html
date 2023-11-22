@@ -35,7 +35,7 @@
             <div class="container-two">
                 <h1>Lorem ipsum dolores tolot hifler </h1>
                 <p>onsectetur adipiscing elit, sed do eiusmod</p>
-                <button type="submit" :hover>CALL TO ACTION</button>
+                <button class="a" type="submit" :hover>CALL TO ACTION</button>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
             </div>
         </div>
@@ -86,7 +86,7 @@
             </div>
         </section>
 
-        <section id="Our-results" class="our-results" style="background-size: auto; background-image: url(/alx_html_css/headphones/headphones_hero_2.jpg); background-repeat: no-repeat;">
+        <section id="Our-results" class="our-results" style="background-size: auto; background-image: url(/alx_html_css/headphones/headphones_hero_2.jpg); background-repeat: no-repeat; color: white;">
             <h1>Our results speak for themselves!</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
             <div class="pentagon" style=" display: flex; flex-direction: row; justify-content: space-around;">
@@ -103,22 +103,43 @@
             <h1>Contact Us</h1>
             <div>  
                 <form>
+                    <style>
+                        input {
+                            display: flex;
+                            flex-direction: column;
+                            align-self: center;
+                            text-align: center;
+                            background: transparent;
+                            border: none;
+                            border-bottom: 4px solid white;
+                            font-size: 16px;
+                        }
+                    </style>
                 
-                    <input type="text" id="fname" name="First Name" placeholder="First Name"><br><br>
-                    
-                    <input type="text" id="lname" name="Last Name" placeholder="Last Name"><br><br>
-                    
-                    <input type="email" id="email" name="Email Address" placeholder="Your email address" required><br><br>
-                   
-                    <button type="submit">Register</button>
+                    <input type="text" id="fname" name="First Name" placeholder="Name"><br>
+                    <input type="email" id="email" name="Email Address" placeholder="Your email address" required><br>
+                    <input type="text" id="message" name="message" placeholder="Your message"><br>
+                    <button class="b" type="submit">Call to Action</button>
+                </form>
             </div>
            
         </section>
         
     </main>
     
-    <footer>
+    <footer style=" background-color: #050107b9;">
+        <div class="downlogo">
+            <img src="/alx_html_css/headphones/images/logo_headphones.png" alt="logo">
 
+        <div class="social-media" style="display: flex; flex-direction: row; justify-content: flex-end;" >
+            <img src="https://th.bing.com/th/id/OIP.5rLxnuUrxTpvMEt2ApFjSgHaHa?rs=1&pid=ImgDetMain" alt="facebook" style="height: 30px; width: 30px;">
+            <img src="https://th.bing.com/th/id/OIP.oCDJw4n1boAa5qJoV6BwUwHaGB?w=668&h=543&rs=1&pid=ImgDetMain" alt="twitter" style="height: 30px; width: 30px;">
+            <img src="https://th.bing.com/th/id/OIP.Onte4CSjGX-Awq7M3NKmuAAAAA?w=420&h=320&rs=1&pid=ImgDetMain" alt="instagram" style="height: 30px; width: 30px;">
+        </div>
+
+        <p style="align-self: center;">@Copyright2023</p>
+
+        </div>
     </footer>
 
 </body>
