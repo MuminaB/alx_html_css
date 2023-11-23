@@ -1,13 +1,59 @@
+:root{
+   
+    --section-header-padding: 0 0 3rem;
+        --section-header-align: center;
+
+        --text-color: var(--color-black);
+  
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+  
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+  
+    
+}
+
 
 body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     font-size: 1em;
     line-height: 1.5;
    
-    background: #fff;
+    
   }
+
+/*button {
+    display: var(--button-display);
+    padding: var(--button-padding);
+    border: var(--button-border);
+    font-size: var(--button-font-size);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+  }
+  
+  .button:hover {
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background: var(--button-hover-background);
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
+  }
+*/
+
   h1 {
     font-size: 1.5em;
     font-weight: normal;
@@ -15,7 +61,14 @@ body {
 header {
     background-image: url("headphones_hero_1.jpg");
     color: #fff;
-    
+    height: 100%;
+    padding: 20px;
+    margin: 50px;
+}
+
+.our-results{
+    background-size: cover;
+    background-image: url("headphones_hero_2.jpg");
 }
 a {
     color: #fffc;
@@ -36,7 +89,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .container{
     display: flex;
@@ -45,9 +97,9 @@ a {
     
 }*/
 
-.nav{
+.header .container .nav{
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:space-between;
 }
 
@@ -78,10 +130,19 @@ h3, h1 {
 button:hover {
     background-color: #ad3628;
   }
-button {
+button.a {
     width: 150px;
     height: 50px;
     border: 0px;
     border-radius: 20px;
     background-color: #e74c3c;
 }
+
+.pentagon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+ 
