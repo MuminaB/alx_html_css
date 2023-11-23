@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <link rel="stylesheet" href="2-styles.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+</head>
+<body>
+    
+    <header class="header" >
+        <div>
+            <div class="container">
+                <div class="header_logo">
+                    <img src="/alx_html_css/headphones/images/logo_headphones.png" alt="logo_headphones" width="150px" height="50px" >
+                </div>
+               
+                <div class="nav">
+                   <div class="nav-item">
+                    <a href="#What-we-do">What we do</a>
+                   </div>
+                   <div class="nav-item">
+                    <a href="#Our-results">Our results</a>
+                   </div>
+                   <div class="nav-item" >
+                    <a href="#Contact-us">Contact us</a>
+                   </div>
+                    
+                </div>  
+                
+            </div>
+            
+            
+            <div class="container-two">
+                <h1>Lorem ipsum dolores tolot hifler </h1>
+                <p>onsectetur adipiscing elit, sed do eiusmod</p>
+                <button class="a" type="submit" :hover>CALL TO ACTION</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+        </div>
+    </header> 
+
+    <main>
+        <section id="What-we-do" class="section">
+            <div>
+                <h1>What we do ...</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+
+            <div class="media-types">
+                <div>
+                    <img src="/alx_html_css/headphones/images/sound-frecuency.svg" alt="sound-frequency">
+
+                    
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+               
+                </div>
+
+                <div>
+                    <img src="/alx_html_css/headphones/images/video.svg" alt="video">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+               
+                </div>
+
+                <div>
+                    <img src="/alx_html_css/headphones/images/music.png" alt="music">
+
+                    
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+               
+                </div>
+
+                <div>
+                    <img src="/alx_html_css/headphones/images/hearing.svg" alt="hearing">
+
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+               
+                </div>
+
+            </div>
+        </section>
+
+        <section class="our-results" style="background-size: auto; background-image: url(/alx_html_css/headphones/headphones_hero_2.jpg); background-repeat: no-repeat; color: white;">
+            <h1>Our results speak for themselves!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            <div class="pentagon" style=" display: flex; flex-direction: row; justify-content: space-around;">
+            <style>
+                .pentagon{
+                    position: absolute;
+                    
+                    transform: translate(-50%, -50%);
+                    height: 0;
+                    width: 180px;
+                    border-top: 180px solid rgb(228, 8, 74);
+                    border-left: 90px solid transparent;
+                    border-right: 90px solid transparent; 
+                  }
+                 
+                .pentagon:after{
+                    position: absolute;
+                    content: '';
+                   
+                    border-bottom: 180px solid rgb(228, 8, 74);
+                    border-left: 180px solid transparent;
+                    border-right: 180px solid transparent;
+                    bottom: 180px;
+                    left: -90px;
+                  }
+            </style>
+            
+                
+            </div>
+            
+
+        </section>
+
+        <section class="contact-us">
+            <h1>Contact Us</h1>
+            <div>  
+                <form>
+                    <style>
+                        input {
+                            display:flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            border-bottom: black;
+                            align-content: center;
+                            text-align: center;
+                            background: transparent;
+                            border: none;
+                            border-bottom: 4px solid white;
+                            font-size: 16px;
+                        }
+                    </style>
+                
+                    <input type="text" id="fname" name="First Name" placeholder="Name"><br>
+                    <input type="email" id="email" name="Email Address" placeholder="Your email address" required><br>
+                    <input type="text" id="message" name="message" placeholder="Your message"><br>
+                    <button class="b" type="submit" style="border-radius: 30px; align-items: center;">Call to Action</button>
+                </form>
+            </div>
+           
+        </section>
+        
+    </main>
+    
+    <footer style=" background-color: #050107b9;">
+        <div class="downlogo">
+            <img src="/alx_html_css/headphones/images/logo_headphones.png" alt="logo">
+
+        <div class="social-media" style="display: flex; flex-direction: row; justify-content: flex-end;" >
+            <img src="https://th.bing.com/th/id/OIP.5rLxnuUrxTpvMEt2ApFjSgHaHa?rs=1&pid=ImgDetMain" alt="facebook" style="height: 30px; width: 30px;">
+            <img src="https://th.bing.com/th/id/OIP.oCDJw4n1boAa5qJoV6BwUwHaGB?w=668&h=543&rs=1&pid=ImgDetMain" alt="twitter" style="height: 30px; width: 30px;">
+            <img src="https://th.bing.com/th/id/OIP.Onte4CSjGX-Awq7M3NKmuAAAAA?w=420&h=320&rs=1&pid=ImgDetMain" alt="instagram" style="height: 30px; width: 30px;">
+        </div>
+
+        <p style="align-self: center;">@Copyright2023</p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
