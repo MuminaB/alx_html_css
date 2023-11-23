@@ -1,0 +1,201 @@
+:root{
+   
+    --section-header-padding: 0 0 3rem;
+        --section-header-align: center;
+
+        --text-color: var(--color-black);
+  
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+  
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+  
+    
+}
+
+
+body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+   
+    
+  }
+
+/*button {
+    display: var(--button-display);
+    padding: var(--button-padding);
+    border: var(--button-border);
+    font-size: var(--button-font-size);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+  }
+  
+  .button:hover {
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background: var(--button-hover-background);
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
+  }
+*/
+
+  h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+header {
+    background-image: url("headphones_hero_1.jpg");
+    color: #fff;
+    height: 100%;
+    padding: 20px;
+    margin: 50px;
+}
+
+.our-results{
+    background-size: cover;
+    background-image: url("headphones_hero_2.jpg");
+}
+a {
+    color: #fffc;
+    text-decoration: none;
+  }
+  a:hover {
+    box-shadow: 0 1px #e74c3c;
+  }
+  
+/*
+.header_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+}*/
+.container-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}*/
+
+.header .container .nav{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+/*
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    
+}*/
+p {
+    text-align: center;
+}
+
+h3, h1 {
+    text-align: center;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.media-types{
+    display: flex;
+    flex-direction: row;
+
+}
+button:hover {
+    background-color: #ad3628;
+  }
+button.a {
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #e74c3c;
+}
+button.b {
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #e74c3c;
+}
+
+
+input {
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid white;
+    font-size: 20px;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    padding: 50px;
+    margin: 70px;
+    margin-top: 10px;
+    border: none;
+}
+
+footer{
+    background-color: #17031d2a;
+}
+.downlogo{
+    size: 20px;
+}
+ footer .social-media{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+padding: 100px;
+margin: 0px;
+}
+.pentagon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    width: 180px;
+    border-top: 180px solid rgb(228, 8, 74);
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent; 
+  }
+ 
+  .pentagon:after{
+    position: absolute;
+    content: '';
+    border-bottom: 180px solid rgb(228, 8, 74);
+    border-left: 180px solid transparent;
+    border-right: 180px solid transparent;
+    bottom: 180px;
+    left: -90px;
+  }
