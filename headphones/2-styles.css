@@ -27,7 +27,7 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
-    padding: 0;
+    padding: 50px;
     margin: 0;
     font-family: sans-serif;
     font-size: 1em;
@@ -62,13 +62,15 @@ header {
     background-image: url("headphones_hero_1.jpg");
     color: #fff;
     height: 100%;
-    padding: 20px;
-    margin: 50px;
+    padding: 100px;
+    margin: 0px;
 }
 
 .our-results{
     background-size: cover;
     background-image: url("headphones_hero_2.jpg");
+    padding: 100px;
+    
 }
 a {
     color: #fffc;
@@ -125,7 +127,7 @@ h3, h1 {
 .media-types{
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
 }
 button:hover {
     background-color: #ad3628;
