@@ -13,6 +13,7 @@ body {
     font-weight: normal;
   }
 header {
+    padding: 100px;
     background-image: url("headphones_hero_1.jpg");
     color: #fff;
     
