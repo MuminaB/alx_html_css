@@ -1,12 +1,16 @@
-header, .a{
+ .a{
     background-image: url(/alx_html_css/css_advanced/css-advanced/CSS-Advanced/Object.png);
     margin: 20px;
     padding: 100px;
+    background-repeat: no-repeat;
+    width: cover;
+    
 }
 header{
     display: flex;
     flex-direction: row;
   justify-content: space-around;
+  width: 70%;
 }
 
 .header-logo{
@@ -14,6 +18,15 @@ header{
     flex-direction: row;
     justify-content: space-around;
     
+}
+button {
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: purple;
+    color:white;
+    justify-self: center;
 }
 a {
     color: white;
@@ -45,6 +58,7 @@ justify-content: space-around;
 .quote{
     padding: 100px;
     background-color: rgb(138, 88, 185);
+    color: white;
 }
 .b{
     display: flex;
@@ -85,6 +99,12 @@ justify-content: space-around;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.smile{
+    display: flex;
+    flex-direction:column;
+    align-items: center;  
+    text-align: center;
 }
 .faq{
     display: flex;
